@@ -20,4 +20,4 @@ WORKDIR /var/www/html/
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 # Expose port 80
-EXPOSE 80 443
+EXPOSE 80
